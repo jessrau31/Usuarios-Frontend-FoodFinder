@@ -1,0 +1,10 @@
+.contenedor1{
+border-radius: 20px;
+position: absolute;
+width: 430px;
+height: 968px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(167, 155, 242, 0.5) -30.63%, rgba(254, 254, 254, 0.5) 90.75%), url(hammo.jpg);
+}
