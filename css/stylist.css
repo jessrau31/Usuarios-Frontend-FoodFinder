@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'Baloo2';
+    src: url('/fonts/baloo-2/Baloo2-Regular.ttf');
+}
 body{
 background-image: url("/img/hammo.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
+display: flex;
+justify-content: center;
 }
 
 body:before{
@@ -14,4 +20,60 @@ position: absolute;
 top: 0;
 left: 0;
 background: linear-gradient(#a79bf280, #fefefe80);
+z-index: -1;
 }
+
+.contenedor-imagen{
+display: block;
+justify-content: center;
+position: absolute;
+}
+
+#logo{
+    width: 280px;
+    height: 400px;
+    margin-top: 50px;
+ 
+}
+
+.iniciar-sesion{
+    width: 150px;
+    height: 35px;
+    margin-top: 500px;
+    border-radius: 20px;
+    background: #F27294;
+    border-color: #F27294;
+    border-style:inherit;
+    color: white;
+    font-size: 18px;
+    font-family: "Baloo2";
+    font-weight: bold;
+    position: absolute;
+}   
+
+.iniciar-sesion:active{
+    background: white;
+    color: #F27294;
+
+}
+
+.texto-registro{
+    margin-top: 550px;
+    
+    position: absolute;
+}
+
+p1{
+    font-size: 13px;
+    font-family: "Baloo2";
+    color: white;
+
+}
+p2{
+    font-size: 13px;
+    font-family: "Baloo2";
+    color: #F27294;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
