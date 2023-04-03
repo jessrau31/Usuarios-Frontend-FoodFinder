@@ -1,0 +1,24 @@
+body{
+    background: url("/img/hammo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+body:before{
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#a79bf280, #fefefe80);
+    z-index: -1;
+}
+
+.fondo-color{
+    width: 100%;
+    height: 50%;
+    background-color: #deebfb;
+}
