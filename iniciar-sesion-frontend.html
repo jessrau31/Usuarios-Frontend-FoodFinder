@@ -10,20 +10,22 @@
 </head>
 <body>
     <div class="contenedor-principal">
-        <div class="contenedor-logo"> <img id="logo" src="/img/logoff3.png" alt=""></div>
+        <div class="contenedor-logo"> <img id="logo" src="/img/logoff3.png" alt="">
+        </div>
         <div class="contenedor-is">
             <div class="botones-ir">
                     <label class="boton-ir">
                     <input type="checkbox" name="">   
-                    <span><p1>Iniciar Sesión</p1> 
-                        <p2>Registrarse</p2>
+                    <span><p1 class="iniciar-sesion">Iniciar Sesión</p1> 
+                        <p2 class="registrarse">Registrarse</p2>
                     </span>
-                    </label>
-            <div class="formularios">
+                    </label>  
+            </div>
+            <div class="formulario1">
+                <h2 class="bienvenida">¡Bienvenido a Food Finder!</h2>
                 <form class="formulario-inicio">
-                    <h2 class="mensaje">¡Bienvenido a Food Finder!</h2>
-                    <input type="email" placeholder="Correo Electrónico">
-                    <input type="contraseña" placeholder="Contraseña">
+                    <input type="email" name="" placeholder="Correo electrónico">
+                    <input type="password" placeholder="Contraseña">
                     <input type="button" value="Iniciar Sesión">
                     <div class="iconos">
                         <div class="icons">
@@ -37,9 +39,32 @@
                         </div>
                     </div>
                 </form>
-                </div>
             </div>
-            <!-- <nav>
+            <div class="formulario2">
+                <h2 class="bienvenida">¡Bienvenido a Food Finder!</h2>
+                <form class="formulario-registro">
+                    <input type="email" name="" placeholder="Correo electrónico">
+                    <input type="password" placeholder="Contraseña">
+                    <input type="button" value="Registrarse">
+                    <div class="iconos">
+                        <div class="icons">
+                            <i id="google" class="fa-brands fa-google"></i>
+                        </div>
+                        <div class="icons">
+                            <i id="apple" class="fa-brands fa-apple"></i> 
+                        </div>
+                        <div class="icons">
+                            <i id="facebook" class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/js/controladoris.js"></script>
+</body>
+</html>
+    <!-- <nav>
                 <div id="botones-nav" style="flex: 1; ">
                     <div class="selector-botones">
                         <div id="opcion-activa">
@@ -53,8 +78,3 @@
             </nav> 
         onclick="location.href='/iniciar-sesion-frontend.html'"
             onclick="location.href='/registrarse-frontend.html'"-->
-        </div>
-    </div>
-
-</body>
-</html>

@@ -55,7 +55,7 @@ height: 100%;
     width: 260px;
     height: 400px;
     margin-left: 18px;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: #A79BF2;
     grid-gap: 1px;
     grid-template-columns: 1fr;
@@ -67,8 +67,7 @@ height: 100%;
 }
 
 .botones-ir{
-    margin-top: 130px;
-    margin-left: 26px;
+    margin: auto;
     position: static;
 }
 
@@ -95,7 +94,7 @@ height: 100%;
 }
 
 .botones-ir input:checked ~ span::after{
-transform: translate(105px);
+transform: translate(106px);
 }
 
 .botones-ir input{
@@ -128,8 +127,140 @@ h2{
     font-size: 18px;
     font-weight: bold;
     color: white;
-    margin-right: 22px;
     text-align: center;
+    margin-bottom: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.formulario1 input {
+    width: 70%;
+    display: block;
+    margin:auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: #DEEBFB thin solid;
+    text-align: left;
+    outline: none;
+    padding: .2rem 0;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.formulario1 input[type="button"] {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border: solid thin #F27294;
+    border-radius: 40px;
+    background-color: #F27294;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.formulario1 input[type="button"]:active{
+    background: white;
+    color: #F27294;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.formulario1 input[type="email"] {
+    margin-top: -65px;
+}
+
+.formulario2{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.formulario2 input {
+    width: 95%;
+    display: block;
+    margin:auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: #DEEBFB thin solid;
+    text-align: left;
+    outline: none;
+    padding: .2rem 0;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.formulario2 input[type="button"] {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border: solid thin #F27294;
+    border-radius: 40px;
+    background-color: #F27294;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.formulario2 input[type="button"]:active{
+    background: white;
+    color: #F27294;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.formulario2 input[type="email"] {
+    margin-top: -65px;
+}
+
+.iconos{
+    margin-top: 25px;
+    font-size: 25px;
+    color: #F27294;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.icons{
+    float: left;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.icons:active{
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.formulario2{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.formulario2.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.formulario1.active{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.iniciar-sesion{
+
+}
+
+registrarse{
+
 }
 
 /* nav {
