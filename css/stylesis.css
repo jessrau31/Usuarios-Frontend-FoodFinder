@@ -179,7 +179,7 @@ h2{
 }
 
 .formulario2 input {
-    width: 95%;
+    width: 85%;
     display: block;
     margin:auto;
     margin-bottom: 2rem;
@@ -253,14 +253,6 @@ h2{
 .formulario1.active{
     opacity: 0;
     visibility: hidden;
-}
-
-.iniciar-sesion{
-
-}
-
-registrarse{
-
 }
 
 /* nav {
