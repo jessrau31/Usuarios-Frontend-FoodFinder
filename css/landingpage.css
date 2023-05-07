@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Baloo2';
+    src: url('/fonts/baloo-2/Baloo2-Regular.ttf');
+}
+body{
+background-image: url("/img/hammo.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+}
+
+body:before{
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: linear-gradient(#a79bf280, #fefefe80);
+z-index: -1;
+}
+
+#logo {
+    width: 15%;
+    height: 100%;
+    float: right;
+    margin-left: 120px;
+    margin-top: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sections-login {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+    top: 40px;
+    border-radius: 20px;
+    height: 410px;
+    background-color: #A79BF2;
+    padding: 10px;
+    width: 320px;
+    border-color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo-iniciar-sesion{
+    width: 20%;
+    height: 22%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo-login {
+    color: #F27294;
+    font-weight: bold;
+    font-size: 25px;
+    top: 100px;
+    font-family: baloo2;
+}
+
+.subtitulo-login {
+    font-weight: 700;
+    font-size: 13px;
+    top: 140px;
+    color: white;
+    font-family: baloo2;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sections-login > * {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-family: baloo2;
+    
+}
+
+.borde {
+    border: 2px solid #A79BF2;
+    border-radius: 20px;
+}
+
+.contenedor-formulario {
+    top: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#section-registration {
+    display: none;
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+    top: 310px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boton1{
+    width: 300px;
+    height: 30px;
+    background-color: #F27294;
+    border-radius: 15px;
+    border: #F27294;
+    color: white;
+    font-weight: bold;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.boton1:active{
+    background-color: white;
+    color: #F27294;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.boton2{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    border: white;
+    color: #F27294;
+    font-weight: bold;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.boton2:active{
+    background-color: #F27294;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#modal-body-sesion {
+    text-align: center;
+}
+
+.titulo-modal {
+    font-weight: bold;
+    font-family: baloo2;
+}
+
+.subtitulo-modal, .parrafo-modal {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    font-family: baloo2;
+}
+
+.subtitulo-modal {
+    font-size: 17px;
+    font-family: baloo2;
+}
+
+.check * {
+    font-size: 50px;
+    color: white;
+}
+
+.error * {
+    font-size: 50px;
+    color: #F27294;
+}
+
+.container-fluid {
+    height: 500px;
+}
+
+.icono-login{
+    color: #F27294;
+    font-size: 80px;
+}
+
+@media screen and (min-width: 768px) {
+    #logo {
+        position: absolute;
+        right: auto;
+        left: 10vw;
+        top: 100px;
+        height: 20vw;
+    }
+
+    .sections-login {
+        left: auto;
+        right: 10vw;
+        top: 30px;
+    }
+}
